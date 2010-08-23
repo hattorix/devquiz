@@ -1,4 +1,4 @@
-TARGET = packman
+TARGET = packman.out
 LDFLAGS = -lncurses
 CXX = g++
 CXXFLAGS = -c -g -Wall

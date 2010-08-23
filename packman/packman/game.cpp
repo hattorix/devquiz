@@ -281,6 +281,11 @@ game::status game::on_turn_end()
 	return PLAYING;
 }
 
+const moving_object* game::get_player() const
+{
+	return player_;
+}
+
 bool game::in_range(int x, int y) const
 {
 	return 0 <= x && x < width_ && 0 <= y && y < height_;

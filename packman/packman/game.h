@@ -38,7 +38,7 @@ public:
 	void load(std::istream& ifs);
 	void start();
 
-	const moving_object* get_player() const { return player_; }
+	const moving_object* get_player() const;
 	std::vector<enemy*>& get_enemies() { return enemies_; }
 	object get_object(int x, int y) const;
 	int get_width() const { return width_; }
