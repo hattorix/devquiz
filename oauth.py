@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+# 参考: taichino.com さん
+# - http://taichino.com/programming/1057
+
 import urllib
 import urllib2
 from oauth import oauth
